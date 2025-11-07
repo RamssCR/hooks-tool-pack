@@ -1,5 +1,6 @@
 {
   "name": "hooks-tool-pack",
+  "description": "A comprehensive collection of reusable custom React hooks designed to accelerate development by eliminating the need to create common functionality from scratch. Compatible with both Client-Side Rendering (CSR) and Server-Side Rendering (SSR) environments.",
   "version": "1.0.0",
   "type": "module",
   "module": "./dist/index.es.js",
