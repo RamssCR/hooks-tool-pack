@@ -13,6 +13,7 @@ export default defineConfig({
       outDir: 'dist',
       tsconfigPath: 'tsconfig.build.json',
       insertTypesEntry: true,
+      rollupTypes: true,
     }),
   ],
   build: {

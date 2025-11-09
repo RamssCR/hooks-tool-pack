@@ -1,4 +1,2 @@
-import * as hooks from '@hooks/index'
-import * as helpers from '@helpers/index'
-
-export { hooks, helpers }
+export * from './hooks/index'
+export * from './helpers/index'
