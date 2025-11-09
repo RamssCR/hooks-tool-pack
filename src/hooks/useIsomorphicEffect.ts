@@ -6,7 +6,7 @@ import { useEffect, useLayoutEffect } from 'react'
  * ensuring that effects run synchronously on the client.
  * @see https://reactjs.org/docs/hooks-reference.html#uselayouteffect
  * @example
- * import { useIsomorphicEffect } from 'src/hooks/useIsomorphicEffect
+ * import { useIsomorphicEffect } from 'src/hooks/useIsomorphicEffect'
  * function MyComponent() {
  *   useIsomorphicEffect(() => {
  *     // Your effect logic here

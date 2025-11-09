@@ -16,7 +16,7 @@ type Target = Window | Document | HTMLElement | null
  * useEventListener('click', handleClick, buttonRef.current) // Attaches a click event listener to the button element.
  * useEventListener('resize', handleResize) // Attaches a resize event listener to the window.
  * useEventListener('keydown', handleKeydown, document) // Attaches a keydown event listener to the document.
- * useEventListener('scroll', handleScroll, divRef.current, { once: true }) // Attaches a scroll event listener with onces option.
+ * useEventListener('scroll', handleScroll, divRef.current, { once: true }) // Attaches a scroll event listener with once option.
  */
 export const useEventListener = (
   event: string,

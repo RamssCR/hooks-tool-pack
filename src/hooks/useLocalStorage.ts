@@ -24,7 +24,7 @@ type UseLocalStorageReturn<T> = {
  * @example
  * const { value, setValue, remove, clearStorage } = useLocalStorage<{ theme: string }>('settings', { theme: 'light' })
  * console.log(value) // { theme: 'light' }
- * setValue({ theme: 'dark' })s
+ * setValue({ theme: 'dark' })
  */
 export const useLocalStorage = <T>(
   key: string,
