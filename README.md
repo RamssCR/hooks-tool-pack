@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+![Pull Request Automation](https://github.com/RamssCR/hooks-tool-pack/actions/workflows/unit-testing.yaml/badge.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Hooks Tool Pack
+---
+A collection of useful custom react hooks for various purposes.
+Designed to simplify state management, side effects, and enhance component
+functionality. Works for both library approach (React only) and meta-frameworks
+like Next.js, Remix, etc.
+---
 
-Currently, two official plugins are available:
+## Index
+- [Purpose](#purpose)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Hooks](#available-hooks)
+- [Contributing](#contributing)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
+The Hooks Tool Pack aims to provide developers with a set of reusable custom React hooks
+that simplify common tasks and enhance the overall development experience.
 
-## React Compiler
+By reducing boilerplate code and promoting best practices, these hooks help developers
+build more efficient and maintainable React applications.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+It is designed to be framework-agnostic, making it suitable for use in various React-based
+projects (built with Vite, for example), also including those built with popular
+meta-frameworks like Next.js and Remix.
 
-## Expanding the ESLint configuration
+## Installation
+You can install the Hooks Tool Pack via npm or yarn:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Using npm
+npm install hooks-tool-pack
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Using yarn
+yarn add hooks-tool-pack
 ```
+
+## Usage
+To use a hook from the Hooks Tool Pack, simply import it into your React component:
+
+```jsx
+import { useIsomorphicEffect } from 'hooks-tool-pack';
+
+function MyComponent() {
+  useIsomorphicEffect(() => {
+    console.log('uses useLayoutEffect on client, useEffect on server');
+  }, []);
+
+  return <div>My Component</div>;
+}
+```
+
+## Available Hooks
+For this initial version, a set of eleven hooks were created to cover a variety of use cases:
+
+| Custom Hook                  | Description                                                         |
+|------------------------------|---------------------------------------------------------------------|
+| `useDebounce`                | Debounces a value or function to limit its execution rate.          |
+| `useDocumentTitle`           | Sets the document title dynamically.                                |
+| `useEventListener`           | Attaches event listeners to DOM elements (with cleanup).            |
+| `useIsMounted`               | Tracks if a component is currently mounted.                         |
+| `useIsomorphicEffect`        | Chooses between useEffect and useLayoutEffect based on environment. |
+| `useLocalStorage`            | Wrapper around localStorage for state persistence.                  |
+| `useNetworkStatus`           | Monitors online/offline status of the browser.                      |
+| `usePerformanceMark`         | Measures performance of code blocks and components.                 |
+| `usePrevious`                | Tracks the previous value of a state or prop.                       |
+| `useThrottle`                | Throttles a value or function to limit its execution rate.          |
+| `useToggle`                  | Manages boolean state with a toggle function.                       |
+
+> [!NOTE]
+> This is the initial version of the Hooks Tool Pack. More hooks and features
+> will be added in future releases based on user feedback and requirements.
+
+## Contributing
+Contributions are welcome! If you have ideas for new hooks or improvements:
+
+1. Fork or clone the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and ensure tests are included.
+4. Submit a pull request detailing your changes.
+
+Don't forget to follow the project's coding style. Documentation is handled by typedoc, so
+you must ensure your code comments are clear and comprehensive.
+
+Thank you for your interest in contributing to the Hooks Tool Pack!
