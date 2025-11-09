@@ -5,7 +5,17 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), dts(), paths()],
+  plugins: [
+    react(),
+    paths(),
+    dts({
+      entryRoot: 'src',
+      outDir: 'dist',
+      tsconfigPath: 'tsconfig.build.json',
+      insertTypesEntry: true,
+      rollupTypes: true,
+    }),
+  ],
   build: {
     lib: {
       entry: './src/index.ts',
