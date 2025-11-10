@@ -1,7 +1,6 @@
 /**
  * Creates a wrapper around localStorage with typed keys.
  * It provides methods to get, set, remove, and clear items in localStorage.
- * @description
  * This utility ensures type safety when interacting with localStorage,
  * allowing developers to define specific keys and their associated types.
  * This is just a wrapper around the native localStorage API,

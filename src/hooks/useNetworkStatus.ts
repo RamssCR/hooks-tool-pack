@@ -7,7 +7,6 @@ import { useState } from 'react'
  * It uses the browser's `navigator.onLine` property and listens for
  * `online` and `offline` events to update the status in real-time.
  * It uses an isomorphic effect to ensure compatibility with server-side rendering.
- * @description
  * This hook is useful for applications that need to respond to changes
  * in network connectivity, such as displaying offline messages or
  * disabling certain features when the user is offline.

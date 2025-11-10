@@ -3,7 +3,13 @@ import { createLocalStorage } from '@helpers/localStorage'
 
 const storage = createLocalStorage<string>()
 
-type UseLocalStorageReturn<T> = {
+/**
+ * The return type of the useLocalStorage hook.
+ * It includes the current value, a function to set a new value,
+ * a function to remove the item from storage, and a function to clear all storage.
+ * @template T - The type of the value being stored.
+ */
+export type UseLocalStorageReturn<T> = {
   value: T
   setValue: (newValue: T) => void
   remove: () => void
@@ -13,7 +19,6 @@ type UseLocalStorageReturn<T> = {
 /**
  * A React hook to manage state synchronized with localStorage.
  * It consumes a wrapper around localStorage with typed keys and values.
- * @description
  * This hook provides a way to read from and write to localStorage,
  * while keeping the React state in sync. It also listens for changes
  * to localStorage made in other tabs or windows.

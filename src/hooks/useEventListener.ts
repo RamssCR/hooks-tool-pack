@@ -1,6 +1,10 @@
 import { useEffect, useRef } from 'react'
 
-type Target = Window | Document | HTMLElement | null
+/**
+ * A type representing the possible targets for the event listener.
+ * It can be a Window, Document, HTMLElement, or null.
+ */
+export type Target = Window | Document | HTMLElement | null
 
 /**
  * A hook that adds an event listener to a specified element.
