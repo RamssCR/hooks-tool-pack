@@ -15,7 +15,7 @@
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly -p tsconfig.build.json",
     "lint": "eslint .",
-    "docs": "typedoc",
+    "docs": "typedoc --tsconfig tsconfig.build.json",
     "test": "vitest --reporter=html --reporter=default",
     "test:coverage": "vitest --coverage",
     "preview": "vite preview",
