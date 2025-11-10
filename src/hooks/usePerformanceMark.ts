@@ -3,11 +3,30 @@ import { useIsomorphicEffect } from './useIsomorphicEffect'
 import { useRef } from 'react'
 import { isServer } from '@helpers/process'
 
-type Options = {
+/**
+ * A hook that marks performance points in the application using the
+ * Performance API. It allows developers to create custom performance
+ * marks and measures for profiling and monitoring application performance.
+ */
+export type Options = {
   measureName?: string
   startMark?: string
 }
 
+/**
+ * A React hook to create performance marks using the Performance API.
+ * It allows you to define custom marks and measures for profiling
+ * application performance. The hook cleans up the marks and measures
+ * when the component unmounts.
+ * @param markName - The name of the performance mark to create.
+ * @param options - Optional settings for the performance mark, including measureName and startMark.
+ * @returns void
+ * @example
+ * const Component = () => {
+ *   usePerformanceMark('component-mount', { measureName: 'mount-time', startMark: 'app-start' })
+ *   return <div>My Component</div>
+ * }
+ */
 export const usePerformanceMark = (markName: string, options?: Options) => {
   const savedOptions = useRef<Options | null>(null)
   const isDevelopment = isServer()
