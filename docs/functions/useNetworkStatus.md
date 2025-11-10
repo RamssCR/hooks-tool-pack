@@ -8,7 +8,7 @@
 
 > **useNetworkStatus**(): `boolean`
 
-Defined in: [src/hooks/useNetworkStatus.ts:24](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useNetworkStatus.ts#L24)
+Defined in: [src/hooks/useNetworkStatus.ts:24](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useNetworkStatus.ts#L24)
 
 A hook that returns the current network status (online/offline).
 It uses the browser's `navigator.onLine` property and listens for

@@ -8,7 +8,7 @@
 
 > **createLocalStorage**\<`K`\>(): `object`
 
-Defined in: [src/helpers/localStorage.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/helpers/localStorage.ts#L16)
+Defined in: [src/helpers/localStorage.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/helpers/localStorage.ts#L16)
 
 Creates a wrapper around localStorage with typed keys.
 It provides methods to get, set, remove, and clear items in localStorage.

@@ -8,7 +8,7 @@
 
 > **usePerformanceMark**(`markName`, `options?`): `void`
 
-Defined in: [src/hooks/usePerformanceMark.ts:30](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/usePerformanceMark.ts#L30)
+Defined in: [src/hooks/usePerformanceMark.ts:30](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/usePerformanceMark.ts#L30)
 
 A React hook to create performance marks using the Performance API.
 It allows you to define custom marks and measures for profiling

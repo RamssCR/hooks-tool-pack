@@ -8,11 +8,11 @@
 
 > **Options** = `object`
 
-Defined in: [src/hooks/usePerformanceMark.ts:11](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/usePerformanceMark.ts#L11)
+Defined in: [src/hooks/usePerformanceMark.ts:11](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/usePerformanceMark.ts#L11)
 
-A hook that marks performance points in the application using the
-Performance API. It allows developers to create custom performance
-marks and measures for profiling and monitoring application performance.
+An object containing configuration options for performance measurement.
+Properties include optional names for the measure and start mark, which
+are used to label and track performance marks within the application.
 
 ## Properties
 
@@ -20,7 +20,7 @@ marks and measures for profiling and monitoring application performance.
 
 > `optional` **measureName**: `string`
 
-Defined in: [src/hooks/usePerformanceMark.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/usePerformanceMark.ts#L12)
+Defined in: [src/hooks/usePerformanceMark.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/usePerformanceMark.ts#L12)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [src/hooks/usePerformanceMark.ts:12](https://github.com/RamssCR/hook
 
 > `optional` **startMark**: `string`
 
-Defined in: [src/hooks/usePerformanceMark.ts:13](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/usePerformanceMark.ts#L13)
+Defined in: [src/hooks/usePerformanceMark.ts:13](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/usePerformanceMark.ts#L13)

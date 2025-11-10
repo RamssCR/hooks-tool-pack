@@ -8,7 +8,7 @@
 
 > **UseLocalStorageReturn**\<`T`\> = `object`
 
-Defined in: [src/hooks/useLocalStorage.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L12)
+Defined in: [src/hooks/useLocalStorage.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L12)
 
 The return type of the useLocalStorage hook.
 It includes the current value, a function to set a new value,
@@ -28,7 +28,7 @@ The type of the value being stored.
 
 > **clearStorage**: () => `void`
 
-Defined in: [src/hooks/useLocalStorage.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L16)
+Defined in: [src/hooks/useLocalStorage.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L16)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Defined in: [src/hooks/useLocalStorage.ts:16](https://github.com/RamssCR/hooks-t
 
 > **remove**: () => `void`
 
-Defined in: [src/hooks/useLocalStorage.ts:15](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L15)
+Defined in: [src/hooks/useLocalStorage.ts:15](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L15)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Defined in: [src/hooks/useLocalStorage.ts:15](https://github.com/RamssCR/hooks-t
 
 > **setValue**: (`newValue`) => `void`
 
-Defined in: [src/hooks/useLocalStorage.ts:14](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L14)
+Defined in: [src/hooks/useLocalStorage.ts:14](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L14)
 
 #### Parameters
 
@@ -70,4 +70,4 @@ Defined in: [src/hooks/useLocalStorage.ts:14](https://github.com/RamssCR/hooks-t
 
 > **value**: `T`
 
-Defined in: [src/hooks/useLocalStorage.ts:13](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L13)
+Defined in: [src/hooks/useLocalStorage.ts:13](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L13)

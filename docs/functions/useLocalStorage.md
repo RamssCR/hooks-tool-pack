@@ -8,7 +8,7 @@
 
 > **useLocalStorage**\<`T`\>(`key`, `initialValue`): [`UseLocalStorageReturn`](../type-aliases/UseLocalStorageReturn.md)\<`T`\>
 
-Defined in: [src/hooks/useLocalStorage.ts:34](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useLocalStorage.ts#L34)
+Defined in: [src/hooks/useLocalStorage.ts:34](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useLocalStorage.ts#L34)
 
 A React hook to manage state synchronized with localStorage.
 It consumes a wrapper around localStorage with typed keys and values.

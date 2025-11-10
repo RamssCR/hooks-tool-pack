@@ -8,7 +8,7 @@
 
 > **useThrottle**\<`T`\>(`callback`, `delay`): (...`args`) => `void` & `object`
 
-Defined in: [src/hooks/useThrottle.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useThrottle.ts#L16)
+Defined in: [src/hooks/useThrottle.ts:16](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useThrottle.ts#L16)
 
 A hook that provides a throttled version of a callback function.
 It ensures that the callback is invoked at most once in a specified delay period.

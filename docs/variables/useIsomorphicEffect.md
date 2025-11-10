@@ -8,7 +8,7 @@
 
 > `const` **useIsomorphicEffect**: (`effect`, `deps?`) => `void`
 
-Defined in: [src/hooks/useIsomorphicEffect.ts:17](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useIsomorphicEffect.ts#L17)
+Defined in: [src/hooks/useIsomorphicEffect.ts:17](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useIsomorphicEffect.ts#L17)
 
 A hook that uses `useLayoutEffect` on the client and `useEffect` on the server.
 This is useful for avoiding warnings when rendering on the server while still

@@ -4,9 +4,9 @@ import { useRef } from 'react'
 import { isServer } from '@helpers/process'
 
 /**
- * A hook that marks performance points in the application using the
- * Performance API. It allows developers to create custom performance
- * marks and measures for profiling and monitoring application performance.
+ * An object containing configuration options for performance measurement.
+ * Properties include optional names for the measure and start mark, which
+ * are used to label and track performance marks within the application.
  */
 export type Options = {
   measureName?: string

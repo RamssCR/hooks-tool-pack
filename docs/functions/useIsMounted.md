@@ -8,7 +8,7 @@
 
 > **useIsMounted**(): `boolean`
 
-Defined in: [src/hooks/useIsMounted.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useIsMounted.ts#L12)
+Defined in: [src/hooks/useIsMounted.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useIsMounted.ts#L12)
 
 Hook to determine if a component is currently mounted.
 

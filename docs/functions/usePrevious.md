@@ -8,7 +8,7 @@
 
 > **usePrevious**\<`T`\>(`value`): `T` \| `null`
 
-Defined in: [src/hooks/usePrevious.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/usePrevious.ts#L12)
+Defined in: [src/hooks/usePrevious.ts:12](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/usePrevious.ts#L12)
 
 Hook to store the previous value of a prop or state.
 

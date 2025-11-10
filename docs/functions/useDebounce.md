@@ -8,7 +8,7 @@
 
 > **useDebounce**\<`T`\>(`callback`, `delay`): (...`args`) => `void` & `object`
 
-Defined in: [src/hooks/useDebounce.ts:19](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useDebounce.ts#L19)
+Defined in: [src/hooks/useDebounce.ts:19](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useDebounce.ts#L19)
 
 Custom hook to debounce a function call.
 This hook returns a debounced version of the provided function,

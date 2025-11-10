@@ -8,7 +8,7 @@
 
 > **useEventListener**(`event`, `handler`, `element`, `options?`): `void`
 
-Defined in: [src/hooks/useEventListener.ts:25](https://github.com/RamssCR/hooks-tool-pack/blob/584beee882f8ad4c4e91becd60bfc68728c2a98f/src/hooks/useEventListener.ts#L25)
+Defined in: [src/hooks/useEventListener.ts:25](https://github.com/RamssCR/hooks-tool-pack/blob/1c8903ce0542bd7238dec2ae07ec771396c8295d/src/hooks/useEventListener.ts#L25)
 
 A hook that adds an event listener to a specified element.
 It receives an element previously accessed via a ref and attaches
