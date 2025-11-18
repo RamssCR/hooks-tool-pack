@@ -47,7 +47,7 @@
     "eslint-plugin-react-x": "^2.3.4",
     "globals": "^16.4.0",
     "husky": "^9.1.7",
-    "jsdom": "^27.1.0",
+    "jsdom": "^27.2.0",
     "lint-staged": "^16.2.6",
     "prettier": "^3.6.2",
     "typedoc": "^0.28.14",
